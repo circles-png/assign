@@ -52,7 +52,7 @@ async fn main() {
         .spreadsheets()
         .values_batch_get(id)
         .add_ranges("B2:B")
-        .add_ranges("E2:E")
+        .add_ranges("F2:F")
         .doit()
         .await
         .unwrap()
